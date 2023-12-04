@@ -1,23 +1,18 @@
-package com.jack.restaurants.dto;
+package com.codeddecode.restaurantlisting.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
-
-@Entity
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class RestaurantDTO {
 
-    @Id
     private int id;
     private String name;
     private String address;
     private String city;
-    private String description;
+    private String restaurantDescription;
+
 }

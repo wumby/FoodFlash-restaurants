@@ -1,6 +1,6 @@
-package com.jack.restaurants.repo;
+package com.codeddecode.restaurantlisting.repo;
 
-import com.jack.restaurants.entity.Restaurant;
+import com.codeddecode.restaurantlisting.entity.Restaurant;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

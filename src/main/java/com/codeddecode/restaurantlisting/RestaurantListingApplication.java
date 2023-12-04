@@ -1,13 +1,13 @@
-package com.jack.restaurants;
+package com.codeddecode.restaurantlisting;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestaurantsApplication {
+public class RestaurantListingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestaurantsApplication.class, args);
+		SpringApplication.run(RestaurantListingApplication.class, args);
 	}
 
 }

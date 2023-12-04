@@ -1,4 +1,4 @@
-package com.jack.restaurants.entity;
+package com.codeddecode.restaurantlisting.entity;
 
 
 import lombok.AllArgsConstructor;
@@ -22,5 +22,6 @@ public class Restaurant {
     private String name;
     private String address;
     private String city;
-    private String description;
+    private String restaurantDescription;
+
 }
